@@ -7,7 +7,7 @@ Xây dựng trang web mà khách hàng có thể ghé thăm và mua các thể l
 | 1       | Bùi Minh Thành | FrontEnd, Backend, Thiết kế usecase, ERD | 100%          |
 
 ## Những thứ đã có trong dự án
-- Framework ASP.NET Core 7, 8.
+- Framework ASP.NET Core 7, 8. (MVC)
 - Entity Framework.
 - Validation.
 - AJAX/API.
