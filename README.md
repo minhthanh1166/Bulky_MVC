@@ -17,10 +17,10 @@ Xây dựng trang web mà khách hàng có thể ghé thăm và mua các thể l
 - SQL Server.
 
 ## Các tính năng đã thực hiện được
-# Page customer 
+### Page customer 
 - Sử dụng identity để đăng nhập và phân quyền, ngoài ra có thể đăng nhập facebook, microsoft, khách hàng cũng có thể tùy chỉnh thay đổi thông tin cá nhân hoặc bảo mật 2 lớp.
 - Khách hàng có thể xem, mua hàng tùy ý. khi thanh toán thành công khách hàng có thể xem đơn hàng của mình và thời gian giao hàng bao lâu. v.v chi tiết website [Tại đây](https://minhthanh.click)
 
-# Page Admin 
+### Page Admin 
 - Nghiệp vụ quản lý công ty, nhân viên, khách hàng v.v. Chi tiết website [Tại đây](https://minhthanh.click)
 - Quản lý Sản phẩm
