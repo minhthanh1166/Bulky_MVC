@@ -6,28 +6,21 @@ Xây dựng trang web mà khách hàng có thể ghé thăm và mua các thể l
 |:-------|:-----------------------|:-------------------------------------------|:------------:|
 | 1       | Bùi Minh Thành | FrontEnd, Backend, Thiết kế usecase, ERD | 100%          |
 
-## Lưu ý 
-- Cần cài đặt thêm web server Go để sử dụng được chức năng Firebase Storage. [Xem tại đây](https://github.com/LNThanhNhan/FirebaseGo)
-
 ## Những thứ đã có trong dự án
-- Framework ASP.NET Core 7, 8
-- Entity Framework (ORM)
-- Validation
-- AJAX/API
-- thanh toán bằng Stripe
-- SQL Server
+- Framework ASP.NET Core 7, 8.
+- Entity Framework.
+- Validation.
+- AJAX/API.
+- thanh toán bằng Stripe.
+
+## Hệ Quản trị csdl 
+- SQL Server.
+
 ## Các tính năng đã thực hiện được
-- Quản lý khách hàng, sản phẩm, nhân viên
-- Quy trình mua hàng và đơn hàng của khách hàng
-- Sử dụng Identity Login, Author, Authentication
-## Sơ đồ ERD
-<img src="ERD.png" alt="Alt text" title="Optional title">
+# Page customer 
+- Sử dụng identity để đăng nhập và phân quyền, ngoài ra có thể đăng nhập facebook, microsoft, khách hàng cũng có thể tùy chỉnh thay đổi thông tin cá nhân hoặc bảo mật 2 lớp.
+- Khách hàng có thể xem, mua hàng tùy ý. khi thanh toán thành công khách hàng có thể xem đơn hàng của mình và thời gian giao hàng bao lâu. v.v chi tiết website [Tại đây](https://minhthanh.click)
 
-
-## Khó khăn 
-- Đồ án này chỉ được thực hiện trong vòng 3 tuần (vừa học vừa làm) nên sẽ có rất nhiều thiếu sót cùng với các tính năng nên có như: 
-1. OAuth bằng các tài khoản mạng xã hội (Google, Facebook,v.v..)
-
-
-## Tài liệu tiếng việt 
-Tài liệu tiếng việc về project có thể đọc [tại đây](https://drive.google.com/file/d/1T9nKVgqFZZhSVR2ikRvQC2Zp5g1x08tn/view?usp=sharing)
+# Page Admin 
+- Nghiệp vụ quản lý công ty, nhân viên, khách hàng v.v. Chi tiết website [Tại đây](https://minhthanh.click)
+- Quản lý Sản phẩm
