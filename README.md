@@ -28,6 +28,6 @@
 
 ## Trải Nghiệm Trực Tuyến Đẳng Cấp
 Bulky Book không chỉ là nơi mua sắm, mà là một cộng đồng yêu sách. Hãy đồng hành cùng chúng tôi trên hành trình khám phá văn hóa tri thức thông qua từng cuốn sách.
-[Khám Phá Ngay!](https://minhthanh.click)
+[Khám Phá Ngay!](https://mthanh1233.bsite.net/)
 
 
