@@ -1,6 +1,12 @@
 ﻿@model IEnumerable<Product>
 
+<form asp-action="Index" class="d-flex">
+    <input name="search" placeholder="Search..." class="form-control w-50">
+    <button type="submit" class="btn btn-primary ms-2">Search</button>
+</form>
+
 <div class="row pb-3">
+
     @foreach (var product in Model)
     {
         <div class="col-lg-3 col-sm-6">

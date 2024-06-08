@@ -21,10 +21,17 @@ namespace BulkyBookWeb.Areas.Customer.Controllers
             _unitOfWork = unitOfWork;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(string? Search)
         {
+            IEnumerable<Product> productList;
+            if (Search != null)
+            {
+                productList = _unitOfWork.Product.GetAll(x => x.Title.Contains(Search), includeProperties: "Category,ProductImages");
+            }else
+            {
+                productList = _unitOfWork.Product.GetAll(includeProperties: "Category,ProductImages");
+            }
             
-            IEnumerable<Product> productList = _unitOfWork.Product.GetAll(includeProperties: "Category,ProductImages");
             return View(productList);
         }
 
